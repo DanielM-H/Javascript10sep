@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form id="myForm">
+        <p>Ditt Navn;</p>
+        <label for="Navn">Navn:</label>
+        <input type="text" id="Navn">
+        <p>Ditt Etternavn;</p>
+        <label for="Etternavn">Etternavn:</label>
+        <input type="text" id="Etternavn">
+        <p>Din Adresse;</p>
+        <label for="Adresse">Adresse:</label>
+        <input type="text" id="Adresse">
+        <p>Ditt Postnummer;</p>
+        <label for="Postnummer">Postnummer:</label>
+        <input type="number" id="Postnummer">
+        <p>Ditt Poststed;</p>
+        <label for="Poststed">Poststed:</label>
+        <input type="text" id="Poststed">
+        <p>Ditt Telefonnummer;</p>
+        <label for="Telefonnummer">Telefonnummer:</label>
+        <input type="number" id="Telefonnummer">
+        <p>Ditt Passord;</p>
+        <label for="Passord">Passord:</label>
+        <input type="password" id="Passord">
+        <div id="passwordMessage"></div>
+        <button type="button" onclick="collectFormData()">Submit</button>
+    </form>
+
+    <!-- Add a div to display the submitted data -->
+    <div id="submittedData"></div>
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
+
